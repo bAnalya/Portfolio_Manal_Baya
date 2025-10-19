@@ -44,7 +44,7 @@ A mobile-responsive version will be introduced in the future.
 This portfolio is hosted via **GitHub Pages**.
 
 🔗 **Live Site:**  
-[https://banalya.github.io/Portfolio/](https://banalya.github.io/Portfolio/)
+[https://banalya.github.io/Portfolio_Manal_Baya/](https://banalya.github.io/Portfolio_Manal_Baya/)
 
 ---
 
