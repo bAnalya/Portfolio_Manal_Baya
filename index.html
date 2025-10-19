@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manal Baya | Portfolio</title>
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <meta name="description" content="Portfolio of Manal Baya – Computer Engineering Student showcasing embedded systems, IoT, and software projects.">
+  <meta name="keywords" content="Manal Baya, portfolio, ESP32, C++, FreeRTOS, Raspberry Pi, IoT, student engineer">
+  <meta name="author" content="Manal Baya">
+
+
+  <!-- Fonts -->
+  <link href="https://fonts.cdnfonts.com/css/thegoodmonolith" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/paradisco" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="rainbow-wrapper">
+    <!-- 25 rainbow layers -->
+    <div class="rainbow"></div>
+    <div class="rainbow"></div>
+    <div class="rainbow"></div>
+    <div class="rainbow"></div>
+    <div class="rainbow"></div>
+    <div class="rainbow"></div>
+    <div class="rainbow"></div>
+    <div class="rainbow"></div>
+    <div class="rainbow"></div>
+    <div class="rainbow"></div>
+    <div class="rainbow"></div>
+    <div class="rainbow"></div>
+    <div class="rainbow"></div>
+    <div class="rainbow"></div>
+    <div class="rainbow"></div>
+    <div class="rainbow"></div>
+    <div class="rainbow"></div>
+    <div class="rainbow"></div>
+    <div class="rainbow"></div>
+    <div class="rainbow"></div>
+    <div class="rainbow"></div>
+    <div class="rainbow"></div>
+    <div class="rainbow"></div>
+    <div class="rainbow"></div>
+    <div class="rainbow"></div>
+
+    <div class="h"></div>
+    <div class="v"></div>
+  </div>
+
+  <header>
+      <a href="#hero" class="site-title">Portfolio</a>
+      <div class="year">2025</div>
+  </header>
+
+  <!-- ===== PAGE 1: HERO ===== -->
+  <section id="hero">
+
+
+    <img src="images/p.jpg" alt="Manal Baya" class="profile-photo" />
+    <h1>Hello, I'm Manal!</h1>
+    <p>Final year Computer Engineering Student <br />
+    Expected Graduation: January 2026</p>
+
+    <div class="hero-buttons">
+      <a href="#about" class="btn about-btn">About Me</a>
+      <a href="#projects-section" class="btn project-btn">Projects</a>
+    </div>
+  </section>
+
+  <!-- ===== PAGE 2: ABOUT ===== -->
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="browser-frame">
+        <div class="browser-topbar">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+        </div>
+
+        <div class="browser-content">
+            <p>
+                I’m a Computer Engineering student at the University of Ottawa passionate about designing 
+                and improving real-world technological systems. I’ve contributed to developing embedded 
+                and networked systems, performing system integration, testing, and troubleshooting in both 
+                academic and professional settings. My experience spans C++, Python, and hardware–software interfacing,
+                supported by strong analytical thinking and bilingual communication. I thrive in collaborative environments
+                where I can learn, contribute, and turn complex challenges into efficient, reliable solutions.
+            </p>
+        </div>
+    </div>
+  </section>
+  
+
+  <section id="projects-section">
+    <h2>Projects</h2>
+    <div class="project-container">
+
+      <div class="project-card" data-modal="modal1">
+        <img src="images/p1.jpg" alt="Smart Home Automation">
+        <h3>Smart Home Automation System</h3>
+      </div>
+
+      <div class="project-card" data-modal="modal2">
+        <img src="images/p2.jpg" alt="ChaseCart">
+        <h3>ChaseCart</h3>
+      </div>
+
+      <div class="project-card" data-modal="modal3">
+        <img src="images/p3.jpg" alt="Traffic Light Controller">
+        <h3>Traffic Light Controller</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- === MODALS (HIDDEN BY DEFAULT) === -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Smart Home Automation System</h2>
+      <p><strong>Technologies:</strong> ESP32 | C++ | FreeRTOS</p>
+      <p>
+        This academic project focused on building a connected smart-home system capable of controlling
+        lights and a fan through gesture recognition and automatic environmental sensing. The system monitors
+        temperature and humidity in real time and supports both automatic and manual operation via a local web interface.
+      </p>
+      <h3>My contribution:</h3>
+      <p>
+        I was responsible for assembling the circuit and developing the C++ firmware coordinating all modules
+        through FreeRTOS tasks. I implemented DHT11 sensor functionality, ensured stable communication, accurate sensor
+        readings, and responsive system behavior.
+      </p>
+    </div>
+  </div>
+
+  <div id="modal2" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>ChaseCart (Capstone Project – In Progress)</h2>
+      <p><strong>Technologies:</strong> Raspberry Pi 4B | ESP32 | LIDAR | RFID | IMU | C++ | Python</p>
+      <p>
+        ChaseCart is an ongoing team-based capstone project aimed at developing an autonomous smart shopping cart 
+        capable of following paths, avoiding obstacles, and verifying its position using RFID tags. The system 
+        integrates multiple sensors and microcontrollers for navigation and object detection.
+      </p>
+      <h3>My contribution:</h3>
+      <p>
+        I am responsible for the hardware assembly and integration of the ESP32 and motor driver circuits, as well as
+        the sensor interfacing (LiDAR, ultrasonic, and RFID). I am also contributing to the embedded software development,
+        focusing on the communication layer between the Raspberry Pi and ESP32 for command execution and feedback control.
+        My tasks include debugging serial communication, testing motor control routines, and refining obstacle detection
+        behavior.
+      </p>
+    </div>
+  </div>
+
+  <div id="modal3" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Traffic Light Controller</h2>
+      <p><strong>Technologies:</strong> VHDL | Quartus</p>
+      <p>
+        This project involved designing a traffic light control system using finite-state machine (FSM) logic 
+        to manage two intersecting roads. The system gives priority to the main road and activates the sub-road 
+        lights dynamically when vehicles are detected.
+      </p>
+      <h3>My contribution:</h3>
+      <p>
+        I designed the FSM architecture in VHDL, defined timing transitions for each state, and simulated the design 
+        in Quartus to verify correct sequencing. 
+      </p>
+    </div>
+  </div>
+
+
+  <!-- ===== PAGE 4: CONTACT ===== -->
+  <section id="contact">
+    <h2>Thank You for Visiting My Portfolio!</h2>
+
+    <img src="images/p4.jpg" alt="Bye wave" class="bye-photo" />
+
+    <p class="contact-message">
+      Get in touch — I’d love to connect!
+    </p>
+
+    <div class="contact-links">
+      <a href="mailto:bayamanal12@gmail.com" target="_blank" class="contact-icon">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/gmail.svg" alt="Email" />
+        Email
+      </a>
+
+      <a href="https://www.linkedin.com/in/manal-baya" target="_blank" class="contact-icon">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" />
+        LinkedIn
+      </a>
+    </div>
+  </section>
+
+  <!-- Scroll Navigation Dots -->
+  <div class="scroll-nav">
+    <span class="dot active" data-target="#hero"></span>
+    <span class="dot" data-target="#about"></span>
+    <span class="dot" data-target="#projects-section"></span>
+    <span class="dot" data-target="#contact"></span>
+  </div>
+
+
+  <footer>© 2025 Manal Baya</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
